@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres - ComicVerse</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-book-half me-2"></i>ComicVerse
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-2.html">Home 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comics.html">Comics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="genres.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="authors.html">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle me-1"></i>Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right me-2"></i>Login</a></li>
+                            <li><a class="dropdown-item" href="register.html"><i class="bi bi-person-plus me-2"></i>Register</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="admin/dashboard.html"><i class="bi bi-gear me-2"></i>Admin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Browse Genres</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white-50">Home</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Genres</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Genres Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-action d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Action</h5>
+                        <p class="text-muted mb-auto">High-energy adventures and thrilling battles</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">1,234 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-fantasy d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Fantasy</h5>
+                        <p class="text-muted mb-auto">Magical worlds and mystical creatures</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">987 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-romance d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Romance</h5>
+                        <p class="text-muted mb-auto">Love stories and emotional journeys</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">756 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-scifi d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Sci-Fi</h5>
+                        <p class="text-muted mb-auto">Future worlds and advanced technology</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">654 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-thriller d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-shield-exclamation"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Thriller</h5>
+                        <p class="text-muted mb-auto">Suspenseful mysteries and intense drama</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">543 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-comedy d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-emoji-laughing"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Comedy</h5>
+                        <p class="text-muted mb-auto">Laughs and lighthearted fun</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">432 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-horror d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-moon-stars"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Horror</h5>
+                        <p class="text-muted mb-auto">Thrilling tales and supernatural</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">321 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-drama d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-theater"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Drama</h5>
+                        <p class="text-muted mb-auto">Emotional stories and character development</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">298 Comics</button>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a href="comics.html" class="genre-card genre-sports d-flex flex-column h-100">
+                        <div class="genre-icon">
+                            <i class="bi bi-trophy"></i>
+                        </div>
+                        <h5 class="fw-bold mt-3 mb-2">Sports</h5>
+                        <p class="text-muted mb-auto">Athletic competitions and teamwork</p>
+                        <button class="btn btn-primary btn-sm mt-3 w-100" type="button">187 Comics</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-half me-2"></i>ComicVerse
+                    </h5>
+                    <p class="text-white-50">Your ultimate destination for comics and graphic novels.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                        <li><a href="comics.html" class="text-white-50 text-decoration-none">Comics</a></li>
+                        <li><a href="genres.html" class="text-white-50 text-decoration-none">Genres</a></li>
+                        <li><a href="authors.html" class="text-white-50 text-decoration-none">Authors</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="pricing.html" class="text-white-50 text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-white-50">Subscribe to get updates on new releases</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 ComicVerse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

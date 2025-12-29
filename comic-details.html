@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Details - ComicVerse</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-book-half me-2"></i>ComicVerse
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-2.html">Home 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comics.html">Comics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="genres.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="authors.html">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle me-1"></i>Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right me-2"></i>Login</a></li>
+                            <li><a class="dropdown-item" href="register.html"><i class="bi bi-person-plus me-2"></i>Register</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="admin/dashboard.html"><i class="bi bi-gear me-2"></i>Admin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Comic Details Section -->
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="comic-cover-card">
+                        <img src="https://source.unsplash.com/400x600/?adventure,superhero,comic-book" alt="Comic Cover" class="img-fluid rounded-4 shadow-lg">
+                        <div class="mt-4">
+                            <a href="reader.html" class="btn btn-primary btn-lg w-100 mb-3">
+                                <i class="bi bi-play-circle me-2"></i>Start Reading
+                            </a>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-outline-primary">
+                                    <i class="bi bi-bookmark me-2"></i>Add to Library
+                                </button>
+                                <button class="btn btn-outline-primary">
+                                    <i class="bi bi-share me-2"></i>Share
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="comic-details">
+                        <h1 class="display-5 fw-bold mb-3">The Adventure Begins</h1>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge bg-primary">Action</span>
+                            <span class="badge bg-success">Adventure</span>
+                            <span class="badge bg-info">Fantasy</span>
+                        </div>
+                        <div class="comic-meta mb-4">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <p class="mb-2"><strong>Author:</strong> <a href="author-profile.html">John Creator</a></p>
+                                    <p class="mb-2"><strong>Status:</strong> <span class="badge bg-success">Ongoing</span></p>
+                                    <p class="mb-2"><strong>Chapters:</strong> 45</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="mb-2"><strong>Rating:</strong> 
+                                        <span class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </span>
+                                        <span class="ms-2">4.8 (1,234 reviews)</span>
+                                    </p>
+                                    <p class="mb-2"><strong>Views:</strong> 125,432</p>
+                                    <p class="mb-2"><strong>Updated:</strong> 2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comic-description mb-4">
+                            <h4 class="fw-bold mb-3">Description</h4>
+                            <p class="text-muted lead">
+                                Join our hero on an epic journey through mystical lands, facing dangerous creatures and uncovering ancient secrets. 
+                                This action-packed adventure will keep you on the edge of your seat with every turn of the page.
+                            </p>
+                            <p class="text-muted">
+                                Follow the story of a young adventurer who discovers they have extraordinary powers. As they learn to control 
+                                their abilities, they must navigate a world full of magic, danger, and unexpected allies. Will they be able 
+                                to save their kingdom from the dark forces threatening to destroy everything they hold dear?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chapters List -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h3 class="fw-bold mb-4">Chapters</h3>
+                    <div class="chapters-list">
+                        <div class="chapter-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="fw-bold mb-1">Chapter 45: The Final Battle</h5>
+                                    <p class="text-muted small mb-0">Published 2 days ago</p>
+                                </div>
+                                <a href="reader.html" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-play me-2"></i>Read
+                                </a>
+                            </div>
+                        </div>
+                        <div class="chapter-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="fw-bold mb-1">Chapter 44: The Gathering</h5>
+                                    <p class="text-muted small mb-0">Published 5 days ago</p>
+                                </div>
+                                <a href="reader.html" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-play me-2"></i>Read
+                                </a>
+                            </div>
+                        </div>
+                        <div class="chapter-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h5 class="fw-bold mb-1">Chapter 43: New Allies</h5>
+                                    <p class="text-muted small mb-0">Published 1 week ago</p>
+                                </div>
+                                <a href="reader.html" class="btn btn-primary btn-sm">
+                                    <i class="bi bi-play me-2"></i>Read
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-outline-primary">Load More Chapters</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Comics -->
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h3 class="fw-bold mb-4">Related Comics</h3>
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="comic-card">
+                                <div class="comic-image">
+                                    <img src="https://source.unsplash.com/300x400/?mystery,thriller,detective" alt="Mystery Quest" class="img-fluid">
+                                    <div class="comic-overlay">
+                                        <a href="comic-details.html" class="btn btn-primary">
+                                            <i class="bi bi-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comic-info">
+                                    <h5 class="fw-bold">Mystery Quest</h5>
+                                    <p class="text-muted small mb-2">Mystery • Thriller</p>
+                                    <span class="badge bg-warning text-dark">
+                                        <i class="bi bi-star-fill"></i> 4.9
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="comic-card">
+                                <div class="comic-image">
+                                    <img src="https://source.unsplash.com/300x400/?fantasy,magic,medieval" alt="Comic" class="img-fluid">
+                                    <div class="comic-overlay">
+                                        <a href="comic-details.html" class="btn btn-primary">
+                                            <i class="bi bi-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comic-info">
+                                    <h5 class="fw-bold">Fantasy Realm</h5>
+                                    <p class="text-muted small mb-2">Fantasy • Magic</p>
+                                    <span class="badge bg-warning text-dark">
+                                        <i class="bi bi-star-fill"></i> 4.7
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="comic-card">
+                                <div class="comic-image">
+                                    <img src="https://source.unsplash.com/300x400/?scifi,future,space" alt="Comic" class="img-fluid">
+                                    <div class="comic-overlay">
+                                        <a href="comic-details.html" class="btn btn-primary">
+                                            <i class="bi bi-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comic-info">
+                                    <h5 class="fw-bold">Sci-Fi Chronicles</h5>
+                                    <p class="text-muted small mb-2">Sci-Fi • Future</p>
+                                    <span class="badge bg-warning text-dark">
+                                        <i class="bi bi-star-fill"></i> 4.6
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="comic-card">
+                                <div class="comic-image">
+                                    <img src="https://source.unsplash.com/300x400/?romance,love,heart" alt="Comic" class="img-fluid">
+                                    <div class="comic-overlay">
+                                        <a href="comic-details.html" class="btn btn-primary">
+                                            <i class="bi bi-eye me-2"></i>View
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="comic-info">
+                                    <h5 class="fw-bold">Love Story</h5>
+                                    <p class="text-muted small mb-2">Romance • Drama</p>
+                                    <span class="badge bg-warning text-dark">
+                                        <i class="bi bi-star-fill"></i> 4.5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-half me-2"></i>ComicVerse
+                    </h5>
+                    <p class="text-white-50">Your ultimate destination for comics and graphic novels.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                        <li><a href="comics.html" class="text-white-50 text-decoration-none">Comics</a></li>
+                        <li><a href="genres.html" class="text-white-50 text-decoration-none">Genres</a></li>
+                        <li><a href="authors.html" class="text-white-50 text-decoration-none">Authors</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="pricing.html" class="text-white-50 text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-white-50">Subscribe to get updates on new releases</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 ComicVerse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

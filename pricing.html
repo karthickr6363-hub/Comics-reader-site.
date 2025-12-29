@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - ComicVerse</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-book-half me-2"></i>ComicVerse
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-2.html">Home 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comics.html">Comics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="genres.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="authors.html">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle me-1"></i>Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right me-2"></i>Login</a></li>
+                            <li><a class="dropdown-item" href="register.html"><i class="bi bi-person-plus me-2"></i>Register</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="admin/dashboard.html"><i class="bi bi-gear me-2"></i>Admin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Choose Your Plan</h1>
+                    <p class="lead text-white-50">Unlock unlimited access to thousands of comics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center align-items-stretch">
+                <!-- Free Plan -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="pricing-card d-flex flex-column w-100">
+                        <div class="pricing-header">
+                            <h3 class="fw-bold">Free</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$0</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features mb-auto">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Access to limited comics</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Basic reading features</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Ads supported</li>
+                            <li><i class="bi bi-x-circle text-muted me-2"></i>No offline downloads</li>
+                            <li><i class="bi bi-x-circle text-muted me-2"></i>No priority support</li>
+                        </ul>
+                        <a href="register.html" class="btn btn-outline-primary w-100 mt-auto">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="pricing-card featured d-flex flex-column w-100">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3 class="fw-bold">Premium</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$9.99</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features mb-auto">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited access to all comics</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Ad-free experience</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Offline downloads</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Early access to new releases</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Priority support</li>
+                        </ul>
+                        <a href="register.html" class="btn btn-primary w-100 mt-auto">Subscribe Now</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="pricing-card d-flex flex-column w-100">
+                        <div class="pricing-header">
+                            <h3 class="fw-bold">Pro</h3>
+                            <div class="pricing-price">
+                                <span class="price-amount">$19.99</span>
+                                <span class="price-period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features mb-auto">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Everything in Premium</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Exclusive creator content</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>HD quality reading</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Multiple device sync</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>24/7 premium support</li>
+                        </ul>
+                        <a href="register.html" class="btn btn-outline-primary w-100 mt-auto">Go Pro</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Can I cancel my subscription anytime?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What payment methods do you accept?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept all major credit cards, PayPal, and other popular payment methods.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Is there a free trial?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer a 7-day free trial for all premium plans. No credit card required.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-half me-2"></i>ComicVerse
+                    </h5>
+                    <p class="text-white-50">Your ultimate destination for comics and graphic novels.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                        <li><a href="comics.html" class="text-white-50 text-decoration-none">Comics</a></li>
+                        <li><a href="genres.html" class="text-white-50 text-decoration-none">Genres</a></li>
+                        <li><a href="authors.html" class="text-white-50 text-decoration-none">Authors</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="pricing.html" class="text-white-50 text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-white-50">Subscribe to get updates on new releases</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 ComicVerse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

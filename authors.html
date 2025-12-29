@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors - ComicVerse</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-book-half me-2"></i>ComicVerse
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-2.html">Home 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comics.html">Comics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="genres.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="authors.html">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle me-1"></i>Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-in-right me-2"></i>Login</a></li>
+                            <li><a class="dropdown-item" href="register.html"><i class="bi bi-person-plus me-2"></i>Register</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="admin/dashboard.html"><i class="bi bi-gear me-2"></i>Admin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Our Authors</h1>
+                    <p class="lead text-white-50">Meet the talented creators behind your favorite comics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authors Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-12">
+                    <div class="filter-bar">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Search authors...">
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select">
+                                    <option>All Genres</option>
+                                    <option>Action</option>
+                                    <option>Fantasy</option>
+                                    <option>Romance</option>
+                                    <option>Sci-Fi</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary w-100">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="John Creator" class="img-fluid rounded-circle" data-author-name="John Creator" data-author-gender="male">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">John Creator</h5>
+                            <p class="text-muted small mb-2">Action • Adventure</p>
+                            <span class="badge bg-primary">12 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Jane Artist" class="img-fluid rounded-circle" data-author-name="Jane Artist" data-author-gender="female">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Jane Artist</h5>
+                            <p class="text-muted small mb-2">Fantasy • Magic</p>
+                            <span class="badge bg-primary">8 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Mike Writer" class="img-fluid rounded-circle" data-author-name="Mike Writer" data-author-gender="male">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Mike Writer</h5>
+                            <p class="text-muted small mb-2">Sci-Fi • Future</p>
+                            <span class="badge bg-primary">15 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Sarah Story" class="img-fluid rounded-circle" data-author-name="Sarah Story" data-author-gender="female">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Sarah Story</h5>
+                            <p class="text-muted small mb-2">Romance • Drama</p>
+                            <span class="badge bg-primary">10 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="David Comics" class="img-fluid rounded-circle" data-author-name="David Comics" data-author-gender="male">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">David Comics</h5>
+                            <p class="text-muted small mb-2">Thriller • Mystery</p>
+                            <span class="badge bg-primary">7 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Emily Tales" class="img-fluid rounded-circle" data-author-name="Emily Tales" data-author-gender="female">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Emily Tales</h5>
+                            <p class="text-muted small mb-2">Comedy • Fun</p>
+                            <span class="badge bg-primary">9 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Chris Art" class="img-fluid rounded-circle" data-author-name="Chris Art" data-author-gender="male">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Chris Art</h5>
+                            <p class="text-muted small mb-2">Horror • Supernatural</p>
+                            <span class="badge bg-primary">6 Comics</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="author-profile.html" class="author-card">
+                        <div class="author-image">
+                            <img src="" alt="Lisa Draw" class="img-fluid rounded-circle" data-author-name="Lisa Draw" data-author-gender="female">
+                        </div>
+                        <div class="author-info text-center mt-3">
+                            <h5 class="fw-bold">Lisa Draw</h5>
+                            <p class="text-muted small mb-2">Drama • Life</p>
+                            <span class="badge bg-primary">11 Comics</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation" class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-book-half me-2"></i>ComicVerse
+                    </h5>
+                    <p class="text-white-50">Your ultimate destination for comics and graphic novels.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">About</a></li>
+                        <li><a href="comics.html" class="text-white-50 text-decoration-none">Comics</a></li>
+                        <li><a href="genres.html" class="text-white-50 text-decoration-none">Genres</a></li>
+                        <li><a href="authors.html" class="text-white-50 text-decoration-none">Authors</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Support</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">FAQ</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="pricing.html" class="text-white-50 text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-white-50">Subscribe to get updates on new releases</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white-50">
+            <div class="text-center text-white-50">
+                <p class="mb-0">&copy; 2025 ComicVerse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <!-- Author Images Script -->
+    <script>
+        // Function to generate avatar URL based on name and gender
+        function generateAuthorAvatar(name, gender) {
+            // Use DiceBear API for generating avatars
+            // For male: use 'avataaars' or 'personas' style
+            // For female: use 'avataaars' or 'personas' style with different seed
+            const style = 'avataaars'; // You can also use 'personas', 'adventurer', etc.
+            const seed = name.replace(/\s+/g, '-').toLowerCase();
+            
+            // DiceBear API URL
+            const baseUrl = 'https://api.dicebear.com/7.x';
+            
+            // Different styles based on gender preference
+            if (gender === 'male') {
+                return `${baseUrl}/${style}/svg?seed=${seed}&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf`;
+            } else {
+                return `${baseUrl}/${style}/svg?seed=${seed}&backgroundColor=ffd5dc,d1d4f9,c0aede,b6e3f4,ffdfbf`;
+            }
+        }
+
+        // Alternative: Use UI Avatars (simpler, but less customizable)
+        function generateUIAvatar(name, gender) {
+            const initials = name.split(' ').map(n => n[0]).join('');
+            const bgColor = gender === 'male' ? '3498db' : 'e91e63';
+            return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=200&background=${bgColor}&color=fff&bold=true&rounded=true`;
+        }
+
+        // Initialize author images when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const authorImages = document.querySelectorAll('img[data-author-name]');
+            
+            authorImages.forEach(function(img) {
+                const name = img.getAttribute('data-author-name');
+                const gender = img.getAttribute('data-author-gender');
+                
+                // Use DiceBear API (more customizable)
+                img.src = generateAuthorAvatar(name, gender);
+                
+                // Fallback: If you prefer UI Avatars, uncomment the line below and comment the line above
+                // img.src = generateUIAvatar(name, gender);
+            });
+        });
+    </script>
+</body>
+</html>
+
